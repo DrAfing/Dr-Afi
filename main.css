@@ -1,0 +1,85 @@
+h1 {
+   color: rgb(243, 239, 12);
+   text-align: center;
+   font-size: 500%; 
+   font-style: italic;
+}
+
+
+#headerContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    /* border: solid rgb(15, 15, 15) 1px; */
+    width: 1000%;
+   }
+
+#mainheader{
+    /* background-color: indianred;  */
+    background-image: url('image/himalya-mountains.jpg');
+    height: 800px;
+    width: 1910px;
+    background-repeat: no-repeat;
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainText {
+     border: coral solid 1px;
+     /* width: 70%; */
+     font-size: large;
+     /* background-image: url('image/babyMonkey.jpeg'); */
+     /* background-image: url('image/cheekymonkey.jpg'); */
+    
+
+}
+.mainText{
+    /* border: coral solid 1px; */
+ 
+}
+
+#textColumn{
+    border: red solid 5px;
+    width: 50%;
+}
+
+.subHeadings{
+    border:cornflowerblue solid 5px;
+
+}
+#imageColoum{
+    border: crimson;
+}
+.image {
+/* size: 100px; */
+}
+
+.frontPageImg{
+    width: 100%;
+}
+
+#secondColumn{
+    border: lime solid 5px;
+    width: 50%;
+}
+#mainContent{
+    border: purple solid 5px;
+
+    display: flex;
+    width: 100%;
+}
+.babyMonkey{
+    width: 100%;
+    /* height: 30%; */
+
+}
+.cheekyMonkey {
+    height: 50%;
+    /* width: 10% */
+}
+.happyChimp{
+    /* width: 50%; */
+}
